@@ -12,7 +12,7 @@ from urllib.parse import urlencode
 from bs4 import BeautifulSoup
 from lib.output import *
 from lib.request import send
-from config import *
+from .config import *
 
 from selenium import webdriver
 
